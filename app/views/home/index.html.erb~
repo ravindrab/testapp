@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 <h1>Home#index</h1>
+
+=======
+<h1>welcome to rails</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+>>>>>>> 3a335f7db59e8797792dce9c2a63fb85ab7325a1
