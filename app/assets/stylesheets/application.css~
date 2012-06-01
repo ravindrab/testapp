@@ -5,7 +5,7 @@
  *= require_self
  *= require_tree . 
 */
-
+*= require_sliderman.css
 #nav {
 	width: 100%;
 	float: left;

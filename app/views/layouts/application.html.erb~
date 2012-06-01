@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Testapp</title>
-  <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag   "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
@@ -20,7 +20,7 @@
 
 <ul id="nav">
 	<li> <%= link_to 'HOME',  %> </li>
-	<li> <%= link_to 'ABOUT US', %> </li>
+	<li> <%= link_to 'ABOUT US', abouts_path %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
 	<li> <%= link_to 'BLOG',  %> </li>
@@ -32,7 +32,7 @@
 
 <div id="footer">
 
-<li> <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %></li>
+<li> <%= link_to 'HOME', %> | <%= link_to 'ABOUT US', abouts_path %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %></li>
 
 
 
