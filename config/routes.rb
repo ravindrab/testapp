@@ -1,15 +1,16 @@
 Testapp::Application.routes.draw do
 
-  resources :posts do
-    resources :comments
-    end
+  resources :posts 
+
+    resources :comments 
 
 
-  resources :users
+  resources :users 
  
   resources :testimonals
-
+ 
   get "home/index"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
