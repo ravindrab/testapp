@@ -1,0 +1,4 @@
+<P>name:<%= @user.name %></p>
+<p>Email:<%= @user.email %></P>
+<p>Contactno:<%= @user.contactno %></p>
+<p>Address:<%= @user.address %></p>

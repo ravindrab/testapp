@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
+
+
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p> 
 <head>
   <title>Testapp</title>
-  <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag "application" , "home"%>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tags %>
 </head>
 
@@ -24,7 +30,7 @@
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
 	<li> <%= link_to 'BLOG',  %> </li>
-	<li> <%= link_to 'CONTACT US',  %> </li>
+	<li> <%= link_to 'CONTACT US', users_path  %> </li>
 	 
 </ul>
 <%= yield %>
