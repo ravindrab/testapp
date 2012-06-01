@@ -44,7 +44,6 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-      UserMailer.registration(@user).deliver
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render json: @user, status: :created, location: @user }
       else
@@ -60,7 +59,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     respond_to do |format|
-    
       if @user.update_attributes(params[:user])
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { head :ok }
