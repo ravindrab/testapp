@@ -1,13 +1,13 @@
 Testapp::Application.routes.draw do
-<<<<<<< HEAD
+
+  resources :posts do
+    resources :comments
+    end
+
+
   resources :users
-=======
  
   resources :testimonals
->>>>>>> 03a24494b1557bf637942043de64363835680be6
-
-  resources :posts
-
 
   get "home/index"
 
