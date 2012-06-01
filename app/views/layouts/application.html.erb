@@ -3,8 +3,8 @@
 
 
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p> 
+
+
 <head>
   <title>Testapp</title>
   <%= stylesheet_link_tag    "application" %>
@@ -29,16 +29,20 @@
 	<li> <%= link_to 'ABOUT US', %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
+
+	<li> <%= link_to 'BLOG', posts_path %> </li>
+	<li> <%= link_to 'CONTACT US', users_path  %> </li>
+
 	<li> <%= link_to 'BLOG',  %> </li>
 	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
-	 
+ 
 </ul>
 <%= yield %>
 <div style="text-align: center; font-size: 0.75em;">
 
 <div id="footer">
 
- <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %>
+ <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', posts_path %> | <%= link_to 'CONTACT US', %>
 
 
 
