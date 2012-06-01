@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<div id="user_nav">
-<% if admin_signed_in? %>
-Signed in as <%= current_admin.email %>. Not you?
-<%= link_to "Sign out", destroy_admin_session_path, :method => :delete %>
-<% else %>
- 
-<% end %>
-</div> 
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p> 
 <head>
   <title>Testapp</title>
   <%= stylesheet_link_tag "application" , "home"%>
@@ -36,7 +26,7 @@ Signed in as <%= current_admin.email %>. Not you?
 	<li> <%= link_to 'ABOUT US', %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
-	<li> <%= link_to 'BLOG',  %> </li>
+	<li> <%= link_to 'BLOG', posts_path %> </li>
 	<li> <%= link_to 'CONTACT US', users_path  %> </li>
 	 
 </ul>
@@ -45,7 +35,7 @@ Signed in as <%= current_admin.email %>. Not you?
 
 <div id="footer">
 
- <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %>
+ <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', posts_path %> | <%= link_to 'CONTACT US', %>
 
 
 
