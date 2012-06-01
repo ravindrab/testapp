@@ -2,9 +2,12 @@
 <html>
 
 
+<<<<<<< HEAD
+=======
 
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p> 
+>>>>>>> 4fe487fef58de6b21ef451c6c7bae9921353fc15
 <head>
   <title>Testapp</title>
   <%= stylesheet_link_tag "application" , "home"%>
@@ -29,8 +32,9 @@
 	<li> <%= link_to 'ABOUT US', %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
-	<li> <%= link_to 'BLOG',  %> </li>
-	<li> <%= link_to 'CONTACT US', users_path  %> </li>
+	<li> <%= link_to 'BLOG', posts_path %> </li>
+	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
+
 	 
 </ul>
 <%= yield %>
@@ -38,7 +42,7 @@
 
 <div id="footer">
 
-<li> <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %></li>
+ <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', posts_path %> | <%= link_to 'CONTACT US', %>
 
 
 
@@ -53,7 +57,7 @@
 <div style="text-align: center; font-size: 0.75em;">
 <b>Developed by
 ANIRA SOLUTIONS.</b> 
-.
+
 </div>
 </div>
 
