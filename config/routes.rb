@@ -1,6 +1,8 @@
 Testapp::Application.routes.draw do
 
 
+  resources :services
+
   resources :abouts
 
   resources :posts do
