@@ -21,7 +21,12 @@
 	<li> <%= link_to 'HOME',  %> </li>
 	<li> <%= link_to 'ABOUT US', %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
+<<<<<<< HEAD
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
+=======
+	<li> <%= link_to 'TESTIMONIALS', testimonals_path  %> </li>
+
+>>>>>>> 9161fac3bdbd9e8d4a4a0fdc87f35e426af4492c
 	<li> <%= link_to 'BLOG', posts_path %> </li>
 	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
 
