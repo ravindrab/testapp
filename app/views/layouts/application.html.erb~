@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-
-
-
-
 <head>
   <title>Testapp</title>
   <%= stylesheet_link_tag    "application" %>
@@ -13,9 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 
-
 <div id="banner">
-
 
 <%= image_tag("logo.png", :alt => "rss feed") %>
 </div>
@@ -29,20 +22,9 @@
 	<li> <%= link_to 'ABOUT US', %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
 	<li> <%= link_to 'TESTIMONIALS',  %> </li>
-<<<<<<< HEAD
 	<li> <%= link_to 'BLOG', posts_path %> </li>
 	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
 
-	 
-=======
-
-	<li> <%= link_to 'BLOG', posts_path %> </li>
-	<li> <%= link_to 'CONTACT US', users_path  %> </li>
-
-	<li> <%= link_to 'BLOG',  %> </li>
-	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
- 
->>>>>>> 63b05f4523e631f77cbf92c18791ada6ca6b46ce
 </ul>
 <%= yield %>
 <div style="text-align: center; font-size: 0.75em;">
