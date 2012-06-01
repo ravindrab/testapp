@@ -18,19 +18,13 @@
 <body style ="background-color:skyblue;">
 
 <ul id="nav">
-	<li> <%= link_to 'HOME',  %> </li>
+	<li> <%= link_to 'HOME',home_index_path  %> </li>
 	<li> <%= link_to 'ABOUT US', abouts_path %> </li>
         <li> <%= link_to 'SERVICES',  %> </li>
         <li> <%= link_to 'BLOG', posts_path  %> </li>
         <li> <%= link_to 'TESTIMONIALS', testimonals_path  %> </li>
+        <li> <%= link_to 'CONTACT US', new_user_path  %> </li>
 
-	<li> <%= link_to 'BLOG', posts_path %> </li>
-
-
-	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
-
-
-	
 </ul>
 <%= yield %>
 <div style="text-align: center; font-size: 0.75em;">
@@ -38,13 +32,11 @@
 <div id="footer">
 
 
-
 <%= link_to 'HOME', %> | <%= link_to 'ABOUT US', abouts_path %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS', testimonals_path %> |<%= link_to 'BLOG', posts_path %> | <%= link_to 'CONTACT US', new_user_path %>
 
  </div>
 
 
- 
 </div>
 
 
