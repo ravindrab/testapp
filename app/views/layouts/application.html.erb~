@@ -19,24 +19,27 @@
 
 <ul id="nav">
 	<li> <%= link_to 'HOME',  %> </li>
-	<li> <%= link_to 'ABOUT US', %> </li>
-        <li> <%= link_to 'SERVICES',  %> </li>
 <<<<<<< HEAD
-	<li> <%= link_to 'TESTIMONIALS',  %> </li>
+	<li> <%= link_to 'ABOUT US', abouts_path %> </li>
+        <li> <%= link_to 'SERVICES',  %> </li>
 =======
+	<li> <%= link_to 'ABOUT US', %> </li>
+        <li> <%= link_to 'SERVICES',  %> </li>	
+>>>>>>> 4bc3a035c882facae7c3021fa1d5d986494db4eb
 	<li> <%= link_to 'TESTIMONIALS', testimonals_path  %> </li>
-
->>>>>>> 9161fac3bdbd9e8d4a4a0fdc87f35e426af4492c
 	<li> <%= link_to 'BLOG', posts_path %> </li>
 	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
-
 </ul>
 <%= yield %>
 <div style="text-align: center; font-size: 0.75em;">
 
 <div id="footer">
 
+
+<li> <%= link_to 'HOME', %> | <%= link_to 'ABOUT US', abouts_path %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', %> | <%= link_to 'CONTACT US', %></li>
+
  <%= link_to 'HOME', %> | <%= link_to 'ABOUT US',  %> | <%= link_to 'SERVICES',  %> | <%= link_to 'TESTIMONIALS',  %> |<%= link_to 'BLOG', posts_path %> | <%= link_to 'CONTACT US', %>
+
 
 
 
