@@ -1,9 +1,17 @@
 Testapp::Application.routes.draw do
+
+  resources :posts do
+    resources :comments
+    end
+
+
+  resources :users
  
   resources :testimonals
 
-  resources :posts
 
+  resources :posts
+ 
 
   get "home/index"
 

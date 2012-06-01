@@ -1,4 +1,15 @@
 
+<<<<<<< HEAD
 <h1> HOME PAGE</h1>
+=======
+<h1>welcome to rails</h1>
+>>>>>>> bb7bff445d34ffd452d6318d6dde01e1e4f9bf84
+
+<p>Find me in app/views/home/index.html.erb</p>
+<h1>OUR TEAM IS WORKING THROUGH GITHUB</h1>
+
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> bb7bff445d34ffd452d6318d6dde01e1e4f9bf84
