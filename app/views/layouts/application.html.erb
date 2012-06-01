@@ -20,10 +20,10 @@
 <ul id="nav">
 	<li> <%= link_to 'HOME',  %> </li>
 	<li> <%= link_to 'ABOUT US', %> </li>
-        <li> <%= link_to 'SERVICES',  %> </li>
-	<li> <%= link_to 'TESTIMONIALS',  %> </li>
-
+        <li> <%= link_to 'SERVICES',  %> </li>	
+	<li> <%= link_to 'TESTIMONIALS', testimonals_path  %> </li>
 	<li> <%= link_to 'BLOG', posts_path %> </li>
+<<<<<<< HEAD
 
 	<li> <%= link_to 'CONTACT US', @user_new_path  %> </li>
 
@@ -33,6 +33,9 @@
 	
 
 
+=======
+	<li> <%= link_to 'CONTACT US', new_user_path  %> </li>
+>>>>>>> 4bc3a035c882facae7c3021fa1d5d986494db4eb
 </ul>
 <%= yield %>
 <div style="text-align: center; font-size: 0.75em;">
