@@ -1,5 +1,25 @@
-<h1>New user</h1>
+<table>
+<tr><td>
+ <h1>Address</h1>
+  <p>Anira Solutions Inc.<br/>
+12020, Sunrise Valley Drive,<br/>
+Suite 100,<br/>
+Reston, VA 20191.<br/><br />
+
+Ph:No  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	: 	703-476-2230<br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  	  	703-400-0233<br />
+		
+Fax    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	: 	501-648-0813<br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  	  	703-476-2211<br /><br />
+		
+Send E mail 	: 	anira@anirasolutions.net 
+  	  	 </p>
+</td><td></td>
+<td >
+
+<h1>Post Contact Information</h1>
 
 <%= render 'form' %>
-
+</td></tr></table>
 <%= link_to 'Back', users_path %>
+
